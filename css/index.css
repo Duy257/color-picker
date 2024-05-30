@@ -1,0 +1,63 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-picker {
+  width: 652px;
+  height: 512px;
+  border: solid 1px #000000;
+}
+
+.title {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.devide {
+  border-bottom: solid 1px #000000;
+}
+
+.color-picker {
+  display: flex;
+  height: 200px;
+}
+
+.color-picker > .color {
+  width: 30%;
+  height: 100%;
+  background-color: #73c0fc;
+}
+.color-picker > .picker {
+  width: 70%;
+  height: 100%;
+}
+
+.strip {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-strip {
+  height: 5px;
+  width: 95%;
+}
+
+.input-hex {
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+.container-input {
+  margin: 0 16px;
+}
